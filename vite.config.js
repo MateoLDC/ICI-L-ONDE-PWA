@@ -21,11 +21,11 @@ export default defineConfig({
       manifest: {
         name: "Ici L'Onde",
         short_name: "Ici L'Onde",
-        description: "Ici L'Onde the Progressive Web App",
+        description: "Ici L'Onde la webradio du Haut Limousin",
         start_url: ".",
         id: "/",
         display: "standalone",
-        background_color: "#000000",
+        background_color: "#ffffff",
         theme_color: "#000000",
         icons: [
           {
