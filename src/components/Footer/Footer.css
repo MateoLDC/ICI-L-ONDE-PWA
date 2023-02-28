@@ -1,0 +1,41 @@
+footer {
+  position: absolute;
+  bottom: 2rem;
+  width: 100vw;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.podcasts,
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.media-link {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a,
+.modal-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.credit {
+  text-align: center;
+}
+
+#credit {
+  font-size: small;
+  color: gray;
+  text-align: center;
+}

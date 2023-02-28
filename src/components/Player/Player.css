@@ -1,0 +1,64 @@
+.player {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#cover {
+  max-width: 350px;
+  border-radius: 1.5rem;
+  transition: opacity 0.3s;
+}
+
+.seekbar-container,
+.volume-container {
+  /* width: 70vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seekbar-container {
+  flex-direction: column;
+}
+
+.seekbar,
+.volume-slider {
+  appearance: none;
+  height: 3px;
+  background-color: white;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+  border-radius: 1rem;
+  margin: 0 0.5rem;
+}
+
+.seekbar::-webkit-slider-thumb,
+.volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 10px;
+  height: 10px;
+  background: white;
+  /* border: 3px solid #3774ff; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.seekbar:hover,
+.volume-slider:hover {
+  opacity: 1;
+}
+
+.seekbar {
+  width: 250px;
+}
+
+.volume-slider {
+  /* background: #2a8302; */
+  width: 100px;
+}
