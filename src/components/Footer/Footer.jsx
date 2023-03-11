@@ -51,6 +51,7 @@ function Footer() {
           <a
             id="credit"
             href="https://www.linkedin.com/in/mat%C3%A9o-le-duc-0b0287210/?originalSubdomain=fr"
+            target="_blank"
             alt="lien vers le linkedin du développeur"
           >
             ©MateoLDC
