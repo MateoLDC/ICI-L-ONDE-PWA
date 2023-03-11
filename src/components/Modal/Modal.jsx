@@ -14,19 +14,34 @@ const Modal = ({ open, onClose }) => {
       <div className="modal-container">
         <h2>Plateformes de Podcast :</h2>
         <div className="link-box">
-          <a className="podcast-link" href="#" alt="lien google podcast">
+          <a
+            className="podcast-link"
+            href="https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvN2EyMTVjM2RkZjkyNDNhMDhiNDQyNzRhYWVkN2Q2NDIueG1s?sa=X&ved=2ahUKEwjkqKHv5dP9AhVwnCcCHbeCBfQQ9sEGegQIARAC"
+            target="_blank"
+            alt="lien google podcast"
+          >
             <SiGooglepodcasts />
           </a>
           <p>Google Podcast</p>
         </div>
         <div className="link-box">
-          <a className="podcast-link" href="http://" alt="lien castbox">
+          <a
+            className="podcast-link"
+            href="https://castbox.fm/channel/ICI-L'ONDE---la-webradio-du-Haut-Limousin-id3933510?country=fr"
+            target="_blank"
+            alt="lien castbox"
+          >
             <SiCastbox />
           </a>
           <p>CastBox</p>
         </div>
         <div className="link-box">
-          <a className="podcast-link" href="http://" alt="lien podcastaddict">
+          <a
+            className="podcast-link"
+            href="https://podcastaddict.com/podcast/3361744"
+            target="_blank"
+            alt="lien podcastaddict"
+          >
             <SiPodcastaddict />
           </a>
           <p>PodcastAddict</p>

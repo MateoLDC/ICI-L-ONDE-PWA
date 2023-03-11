@@ -1,5 +1,5 @@
 import "./Header.css";
-import title from "../../assets/ICILONDE-title.png";
+import title from "../../assets/ICILONDE-title-BK.png";
 
 function Header() {
   return (

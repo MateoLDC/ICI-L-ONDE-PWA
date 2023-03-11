@@ -62,7 +62,7 @@ export default defineConfig({
             src: "./src/assets/bouton-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            // purpose: "any maskable",
+            purpose: "any maskable",
           },
           // {
           //   src: "./src/assets/bouton-1242x2688.png",
