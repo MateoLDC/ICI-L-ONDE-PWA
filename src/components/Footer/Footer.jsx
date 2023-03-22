@@ -30,7 +30,7 @@ function Footer() {
             <h4>Réseaux Sociaux</h4>
             <div className="media-link">
               <a
-                href="https://www.facebook.com/icilondewebradio"
+                href="fb://page/100576498194391"
                 target="_blank"
                 alt="lien facebook"
               >

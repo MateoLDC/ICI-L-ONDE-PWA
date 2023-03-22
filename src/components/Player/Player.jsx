@@ -83,6 +83,7 @@ function Player({ src }) {
           step="0.01"
           value={currentTime}
           className="seekbar"
+          style={{ opacity: isPlaying ? "1" : "0.2" }}
           onChange={handleSeek}
         />
         {/* <div className="total-duration">{audio.duration}</div> */}

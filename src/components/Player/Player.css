@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 #cover {
@@ -23,6 +23,10 @@
 
 .seekbar-container {
   flex-direction: column;
+}
+
+.current-time {
+  margin-bottom: 1rem;
 }
 
 .seekbar,
@@ -44,13 +48,11 @@
   width: 10px;
   height: 10px;
   background: white;
-  /* border: 3px solid #3774ff; */
   border-radius: 50%;
   cursor: pointer;
 }
 
-.seekbar:hover,
-.volume-slider:hover {
+.seekbar:hover {
   opacity: 1;
 }
 
@@ -59,6 +61,5 @@
 }
 
 .volume-slider {
-  /* background: #2a8302; */
   width: 100px;
 }

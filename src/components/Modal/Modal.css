@@ -54,7 +54,6 @@ p {
   cursor: pointer;
 }
 
-/* .close-btn:hover {
-  color: white;
-  background-color: red;
-} */
+.close-btn:hover {
+  color: palevioletred;
+}
