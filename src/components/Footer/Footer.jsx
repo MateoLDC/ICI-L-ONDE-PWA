@@ -24,8 +24,8 @@ function Footer() {
 
             <Modal open={openModal} onClose={() => setOpenModal(false)} />
           </div>
-          {/* SOCIAL MEDIA */}
 
+          {/* SOCIAL MEDIA */}
           <div className="social-media">
             <h4>Réseaux Sociaux</h4>
             <div className="media-link">
@@ -47,6 +47,7 @@ function Footer() {
           </div>
         </div>
 
+        {/* Credits */}
         <div className="credit">
           <a
             id="credit"

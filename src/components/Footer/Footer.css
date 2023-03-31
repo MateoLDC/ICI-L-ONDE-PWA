@@ -35,6 +35,11 @@ a,
   color: white;
 }
 
+a:hover,
+.modal-btn:hover {
+  color: gray;
+}
+
 .credit {
   text-align: center;
 }

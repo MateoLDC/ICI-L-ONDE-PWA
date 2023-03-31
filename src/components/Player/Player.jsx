@@ -16,10 +16,10 @@ function Player({ src }) {
 
   useEffect(() => {
     audio.addEventListener("timeupdate", handleTimeUpdate);
-    audio.addEventListener("ended", handleEnded);
+    // audio.addEventListener("ended", handleEnded);
     return () => {
       audio.removeEventListener("timeupdate", handleTimeUpdate);
-      audio.removeEventListener("ended", handleEnded);
+      // audio.removeEventListener("ended", handleEnded);
     };
   }, [audio]);
 
@@ -27,30 +27,35 @@ function Player({ src }) {
     setCurrentTime(audio.currentTime);
   };
 
-  const handleEnded = () => {
-    setIsPlaying(false);
-    setCurrentTime(0);
-  };
+  // const handleEnded = () => {
+  //   setIsPlaying(false);
+  //   setCurrentTime(0);
+  // };
 
+  //* Play Pause
   const handlePlay = () => {
     if (isPlaying) {
       audio.pause();
+      window.location.reload();
     } else {
       audio.play();
     }
     setIsPlaying(!isPlaying);
   };
 
+  //* Volume controls
   const handleVolumeChange = (event) => {
     setVolume(event.target.value);
     audio.volume = event.target.value;
   };
 
+  //* Seekbar
   const handleSeek = (event) => {
     audio.currentTime = event.target.value;
     setCurrentTime(audio.currentTime);
   };
 
+  //* Conversion decimal > time
   function formatTime(seconds) {
     const hours = Math.floor(seconds / 3600);
     const minutes = Math.floor((seconds % 3600) / 60);

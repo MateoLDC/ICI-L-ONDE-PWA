@@ -63,3 +63,11 @@
 .volume-slider {
   width: 100px;
 }
+
+.playpause {
+  cursor: pointer;
+}
+
+.playpause:hover {
+  color: grey;
+}
