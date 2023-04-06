@@ -10,64 +10,23 @@
 #cover {
   max-width: 350px;
   border-radius: 1.5rem;
-  transition: opacity 0.3s;
 }
 
-.seekbar-container,
-.volume-container {
-  /* width: 70vw; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.infomaniak-player {
+  width: 310px;
+  height: 74px;
+  border-width: 0;
+  border-radius: 0.5rem;
 }
 
-.seekbar-container {
-  flex-direction: column;
-}
-
-.current-time {
-  margin-bottom: 1rem;
-}
-
-.seekbar,
-.volume-slider {
-  appearance: none;
-  height: 3px;
-  background-color: white;
-  opacity: 0.6;
-  transition: opacity 0.3s;
-  border-radius: 1rem;
-  margin: 0 0.5rem;
-}
-
-.seekbar::-webkit-slider-thumb,
-.volume-slider::-webkit-slider-thumb {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  width: 10px;
-  height: 10px;
-  background: white;
+#player-image {
   border-radius: 50%;
-  cursor: pointer;
 }
 
-.seekbar:hover {
-  opacity: 1;
-}
-
-.seekbar {
-  width: 250px;
-}
-
-.volume-slider {
-  width: 100px;
-}
-
-.playpause {
-  cursor: pointer;
-}
-
-.playpause:hover {
-  color: grey;
+@media only screen and (min-width: 768px) {
+  .infomaniak-player {
+    width: 505px;
+    height: 144px;
+    border-radius: 1rem;
+  }
 }

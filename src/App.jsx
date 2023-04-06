@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Player src="https://icilondelawebradio.ice.infomaniak.ch/icilondelawebradio-128.mp3" />
+      <Player />
       <Footer />
     </div>
   );

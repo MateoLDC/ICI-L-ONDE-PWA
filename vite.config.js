@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/ICI-L-ONDE-PWA/", // github page config
+  base: "/ICI-L-ONDE-PWA/",
   server: {
     host: true,
     port: 5174,
@@ -23,8 +23,8 @@ export default defineConfig({
         name: "Ici L'Onde",
         short_name: "Ici L'Onde",
         description: "Ici L'Onde la webradio du Haut Limousin",
-        start_url: "/ICI-L-ONDE-PWA/", // ghpage config
-        id: "/ICI-L-ONDE-PWA/", // ghpage config
+        start_url: "/",
+        id: "/",
         display: "standalone",
         background_color: "#ffffff",
         theme_color: "#000000",
